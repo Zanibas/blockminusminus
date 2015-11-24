@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*******************
+BEGIN CUSTOM STYLES
+*******************/
+
+/* 'border-box' Box Sizing */
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+
+body {
+    background-color: #F5E9D3;
+    color: #25272C;
+}
+
+.container {
+    width: 540px;
+    padding-left: 20px;
+}
+
+.nav {
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.7em;
+    margin: auto;
+    width: 70%;
+    
+}
+
+
+/* Typography */
+
+h1,h2,h3,h4,h5,h6,small {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 22px;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+    margin-bottom: 22px;
+    line-height: 23.2px;
+}
+
+h1 {
+    font-size: 3.157em;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2.369em;
+}
+
+h3 {
+    font-size: 1.777em;
+}
+
+h4 {
+    font-size: 1.333em;
+}
+
+small {
+    font-size: 0.9em;
+}
+
+/* Front Page */
+
+header {
+    padding-top: 20px;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.aside {
+    float: left;
+    width: 200px;
+    background-color: #80CCEA;
+    height: 100vh;
+    text-align: center;
+}
+
+.aside p {
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.right {
+    float: left;
+}
+
+.subtitle {
+    font-weight: 300;
+}
+
+/* Clearfix */
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    clear: both;
+    *zoom: 1;
+}
