@@ -73,17 +73,21 @@ body {
 
 .container {
     width: 540px;
-    padding-left: 20px;
-    margin-left: 212px;
 }
 
-.nav {
+.primary-nav {
     display: inline-block;
     font-weight: 300;
     font-size: 1.7em;
     text-align: left;
     width: 70%;
-    
+    text-align: center;
+    padding-top: .75em;
+}
+
+.primary-nav li {
+    display: inline;
+    padding: 0 16px;
 }
 
 
@@ -128,14 +132,11 @@ header {
 }
 
 .aside {
-    float: left;
-    width: 212px;
     background-color: #80CCEA;
-    height: 300px;
+    height: 212px;
     text-align: center;
     color: white;
     font-family: 'Lato', sans-serif;
-    position: fixed;
 }
 
 .aside p {
@@ -144,7 +145,8 @@ header {
 }
 
 .right {
-    float: left;
+    width: 671px;
+    margin: 0 auto;
 }
 
 .haiku {
@@ -158,20 +160,4 @@ header {
 
 .subtitle {
     font-family: inherit;
-}
-
-
-/* Clearfix */
-
-.group:before,
-.group:after {
-    content: "";
-    display: table;
-}
-.group:after {
-    clear:both;
-}
-.group {
-    clear: both;
-    *zoom: 1;
 }
