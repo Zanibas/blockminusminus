@@ -9,11 +9,21 @@ This is where I'll be documenting most of the early development process until I 
 General Development Tools / References
 ------
 
-### Design
+### General Design Tools
 
 * __Brackets__: [http://brackets.io/](http://brackets.io/)
 
 The main IDE I use to develop the HTML and CSS. The Live Preview feature allows instant feedback on changes I make to the HTML/CSS.
+
+* __Adobe Photoshop CC__: [http://www.adobe.com/products/photoshop.html](http://www.adobe.com/products/photoshop.html)
+
+Although I only use this out of availability and experience, it's a great product to use for most design tasks. I recommend a free program like GIMP though if you're on a budget or don't have access to CC.
+
+* __Rumen Dimitrov's guide to planning out a website__: [http://www.rumendimitrov.com/2015/02/stuck-after-html-and-css/](http://www.rumendimitrov.com/2015/02/stuck-after-html-and-css/)
+
+I found this a great guide to get my feet off the ground. It's easy to get bogged down in certain details of a website and feel hopeless in making it look good, but this helps refine your plan so that working doesn't feel so aimless.
+
+### Colors
 
 * __Adobe Color__: [https://color.adobe.com/](https://color.adobe.com/)
 
@@ -23,9 +33,31 @@ I use this as a starting point for the color scheme to use in the website.
 
 This is helpful for finding colors similar to a primary color I'm focusing on.
 
-* __Adobe Photoshop CC__: [http://www.adobe.com/products/photoshop.html](http://www.adobe.com/products/photoshop.html)
+* __Smashing Magazine: Color Theory For Designers: Creating Your Own Color Palettes: [http://www.smashingmagazine.com/2010/02/color-theory-for-designer-part-3-creating-your-own-color-palettes/](http://www.smashingmagazine.com/2010/02/color-theory-for-designer-part-3-creating-your-own-color-palettes/)
 
-Although I only use this out of availability and experience, it's a great product to use for most design tasks. I recommend a free program like GIMP though if you're on a budget or don't have access to CC.
+A great article outlining the basics of choosing your own color scheme.
+
+### Typography
+
+* __Type Scale__: [http://type-scale.com/](http://type-scale.com/)
+
+A useful tool for generating instant sets of font sizes and previewing them.
+
+* __Modular Scale__: [http://www.modularscale.com/](http://www.modularscale.com/)
+
+After you've chosen your desired ratio on Type Scale, this site goes the extra mile in providing an extended table of sizes. Very useful as a starting point in deciding the div sizes of your website.
+
+* __Google Fonts__: [https://www.google.com/fonts](https://www.google.com/fonts)
+
+The best free web font collection, courtesy of Google.
+
+* __Font Pair__: [http://fontpair.co/](http://fontpair.co/)
+
+If you're stuck figuring out a good pair of heading/body fonts, this site proposes a bunch of Google Web Font combinations that work well together. Bonus points for being able to edit the preview text immediately.
+
+* __Name That Color__: [http://chir.ag/projects/name-that-color/](http://chir.ag/projects/name-that-color/)
+
+Not necessary, but a fun tool to determine the closest named color to a given hex value.
 
 ### Favicons
 * __Favicon Cheat Sheet__: [https://github.com/audreyr/favicon-cheat-sheet](https://github.com/audreyr/favicon-cheat-sheet)
