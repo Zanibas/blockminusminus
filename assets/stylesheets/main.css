@@ -74,7 +74,7 @@ a:hover {
 }
 
 a:visited {
-    color: #834a11
+    color: #521aac
 }
 
 .logo a {
@@ -119,6 +119,13 @@ body {
     padding: 0 16px;
 }
 
+.next {
+    margin-top: 0;
+}
+
+.inactive {
+    color: gray;
+}
 
 /* Typography */
 
@@ -177,14 +184,11 @@ header {
 }
 
 .section-header {
-    font-weight: 300;
     margin-top: 0;
+    margin-bottom: 0.1em;
+    font-weight: 300;
 }
 
 .title {
     font-size: 3.9em;
-}
-
-.subtitle {
-    font-family: inherit;
 }
